@@ -286,9 +286,11 @@ html {
 
 .progress-bars-wrapper {
     margin-bottom: 8rem;
+
 }
 
 .progress-bar {
+
     width: 60rem;
     height: 3rem;
     background-color: #ccc;
@@ -815,7 +817,7 @@ footer a {
 
     .navbar-link {
         font-size: 2rem;
-        margin: 0rem;
+        margin: 1.5rem;
     }
 
     .section-1-btn-project {
@@ -839,9 +841,10 @@ footer a {
         font-size: 3.5rem;
     }
 
-    /* .progress-bars-wrapper {
-        width: 90%;
-    } */
+    .section-2 {
+        justify-content: center;
+        align-items: center;
+    }
 
     .progress-bar {
         height: 5rem;
