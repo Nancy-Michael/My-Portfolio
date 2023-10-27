@@ -770,6 +770,10 @@ footer a {
 }
 
 @media(max-width:650px) {
+    html {
+        font-size: 40%;
+    }
+
     .section-1-main {
         flex-direction: column;
         align-items: center;
@@ -790,6 +794,15 @@ footer a {
 
     .section-2-text img {
         display: none;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .email-wrapper {
+        margin-bottom: 6rem;
     }
 }
 
