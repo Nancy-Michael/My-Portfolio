@@ -66,11 +66,15 @@ html {
     margin: 0 15rem;
 }
 
+.section-1-main {
+    display: flex;
+}
+
 .section-1 .person-img {
     width: 25rem;
     height: 30rem;
     object-fit: cover;
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
     border-bottom-right-radius: 8rem;
     border-top-left-radius: 8rem;
     border-bottom-left-radius: 2rem;
@@ -104,7 +108,7 @@ html {
 .prsonality {
     position: absolute;
     top: 15%;
-    right: -45%;
+    right: -65%;
 }
 
 .prsonality i {
@@ -319,7 +323,10 @@ html {
 
 .section-2 .education-wrapper {
     background-color: white;
-    border-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 8rem;
     padding: .5rem 2rem;
 }
 
@@ -530,14 +537,14 @@ html {
 
 .social-wrapper {
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 /*End of Section 4 */
 
 footer {
     width: 100%;
-    height: 5vh;
+    height: 15vh;
     background-color: black;
     color: #fff;
     display: flex;
@@ -559,180 +566,341 @@ footer a {
 }
 
 
-@media(max-width:1150px) {
-    .services {
-        display: none;
-    }
-
-    .project-text {
-        top: -12rem;
-    }
-
-
-}
-
 @media(max-width:1000px) {
     html {
-        font-size: 55%;
-    }
-}
-
-@media(max-width:800px) {
-    .top-navbar-link {
-        margin: 0 1rem;
+        font-size: 50%;
     }
 
-    .section-1 {
-        flex-direction: column;
+    .section-4-heading {
+        margin-bottom: 10rem;
     }
 
-    .section-1-heading {
+    .email,
+    .phone,
+    .social {
         font-size: 4rem;
     }
 
-
-
-    .section-1 .img-dev {
-        margin-top: 3rem;
+    .email-wrapper,
+    .phone-wrapper {
+        margin: 0 3rem;
     }
 
-    .section-1-btns {
-        font-size: 3rem;
+    .social-wrapper {
+        margin-top: 5rem;
     }
 
-    .section-1 i {
-        font-size: 3rem;
+    footer {
+        height: 10vh;
     }
-
-    .progress-bar {
-        width: 60rem;
-    }
-
-    /* .section-4 .content-wrapper {
-        font-size: 2rem;
-    }
-
-    .email p,
-    .phone p,
-    .social p {
-        font-size: 2.5rem;
-        text-shadow: .1rem .1rem 0 #C70039;
-    } */
 
     footer p {
-        margin: 0 2rem;
+        padding: 0 10rem;
+        font-size: 3rem;
+    }
+
+    .section-2-text {
+        width: 80%;
+        height: 20%;
+    }
+
+    .section-2-text img {
+        width: 30%;
+        padding: 2rem;
     }
 }
 
-@media(max-width:600px) {
-    .progress-bar {
+@media(max-width:850px) {
+    html {
+        font-size: 60%;
+    }
+
+    .top-navbar-link {
+        font-size: 4rem;
+    }
+
+    .section-1-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1 .person-img {
         width: 40rem;
-    }
-
-    footer p {
-        margin: 0 1rem;
-    }
-}
-
-@media(max-width:550px) {
-    .section-1-heading {
-        font-size: 3rem;
-    }
-
-    .section-1-text {
-        position: absolute;
-        top: 10%;
-        left: 20%;
-    }
-
-    .img-wrapper {
-        position: absolute;
-        bottom: 20%;
-        left: 25%;
-        transform: translateX(-50%);
+        height: 40rem;
+        margin-top: 5rem;
     }
 
     .prsonality {
         display: none;
     }
 
-    .top-navbar-link {
-        margin: 0;
+    .person-name {
+        font-size: 6rem;
+    }
+
+    .section-1-heading {
+        font-size: 6rem;
+    }
+
+    .section-1 #auto-text {
+        font-size: 4rem;
+    }
+
+    .section-1-btn-project {
+        font-size: 5rem;
+    }
+
+    .section-1-btns .linkedin,
+    .section-1-btns .github {
+        font-size: 6rem;
     }
 
     .navbar-link {
-        margin: 0 1rem;
+        font-size: 3rem;
     }
 
-    .section-3 {
-        padding: 0;
+    .section-2-text {
+        width: 90%;
+    }
+
+    .section-2-text p {
+        font-size: 3.2rem;
+    }
+
+    .section-2-text img {
+        width: 30%;
+    }
+
+    .progress-bar {
+        height: 6rem;
+    }
+
+    .progress-text {
+        font-size: 3rem;
+    }
+
+    .progress-bar span {
+        font-size: 4rem;
+    }
+
+    .education-wrapper {
+        width: 80%;
     }
 
     .section-3-heading {
-        padding: 0;
+        font-size: 8rem;
     }
 
-    .projects-wrapper {
-        width: 80%;
-        /* flex-wrap: wrap; */
-        display: flex;
-        /* justify-content: center; */
-    }
-
-    .project-img {
-        /* width: 25rem; */
-        height: 20rem;
+    .section-3 p {
+        font-size: 4rem;
+        text-align: center;
     }
 
     .project {
-        width: 40%;
+        width: 80%;
     }
 
-    footer {
-        flex-direction: column;
+    footer p {
+        padding: 0 4rem;
+        font-size: 3rem;
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:780px) {
     html {
-        font-size: 40%;
+        font-size: 55%;
+    }
+
+    .top-navbar-link {
+        font-size: 3rem;
+    }
+
+    .section-1-btn-project {
+        font-size: 3rem;
+    }
+
+    .section-1-text {
+        margin-left: 5rem;
+    }
+
+    .section-1-heading {
+        font-size: 2.8rem;
+    }
+
+    .navbar-link {
+        font-size: 2rem;
+    }
+
+    .education-wrapper {
+        width: 90%;
+        padding: .5rem 1rem;
+    }
+
+    .section-2 p strong {
+        font-size: 3rem;
+    }
+
+    .section-2 p .education {
+        font-size: 2.8rem;
+    }
+
+    footer p {
+        padding: 0 2rem;
     }
 }
 
-/* .section-4 {
-    position: relative;
-} */
-/*
-.email-wrapper {
-    position: absolute;
-    top: 30%;
-    left: 50%;
+@media(max-width:750px) {
+    html {
+        font-size: 50%;
+    }
+
+    .projects-wrapper {
+        width: 90%;
+    }
+
+    .progress-text {
+        font-size: 2rem;
+    }
+
+    .progress-text span {
+        font-size: 2.2rem;
+    }
 }
 
-.email {
-    display: flex;
+@media(max-width:650px) {
+    .section-1-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1-text {
+        margin-top: 5rem;
+    }
+
+    .person-img {
+        margin-top: 5rem;
+    }
+
+    .section-2-text p {
+        font-size: 2.5rem;
+        width: 90%;
+    }
+
+    .section-2-text img {
+        display: none;
+    }
 }
 
-.phone-wrapper {
-    top: 50%;
-    left: 50%;
+@media(max-width:450px) {
+    html {
+        font-size: 30%;
+    }
+
+    .top-navbar-link {
+        font-size: 4rem;
+    }
+
+    .section-1 .person-name {
+        font-size: 6rem;
+    }
+
+    .section-1-heading {
+        font-size: 5rem;
+    }
+
+    .section-1 .person-img {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .navbar-link {
+        font-size: 3rem;
+        margin: 2rem;
+    }
+
+    .section-1-btn-project {
+        font-size: 4rem;
+    }
+
+    .linkedin,
+    .github {
+        font-size: 4rem;
+    }
+
+    .section-1 #auto-text {
+        font-size: 5rem;
+    }
+
+    .section-2-text {
+        width: 90%;
+    }
+
+    .section-2-text p {
+        font-size: 3.5rem;
+    }
+
+    .progress-bars-wrapper {
+        width: 90%;
+    }
+
+    .progress-bar {
+        height: 5rem;
+    }
+
+    .progress-text {
+        font-size: 4rem;
+    }
+
+    .progress-text span {
+        font-size: 4rem;
+    }
+
+    .education-wrapper {
+        width: 90%;
+    }
+
+    .section-2 p strong {
+        font-size: 5rem;
+    }
+
+    .section-2 p .education {
+        font-size: 4rem;
+    }
+
+    .section-3-heading {
+        font-size: 8rem;
+    }
+
+    .section-3 p {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .project {
+        width: 80%;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .email-wrapper {
+        margin-bottom: 3rem;
+    }
+
+    .content-wrapper .text {
+        font-size: 4rem;
+    }
 }
 
-.social-wrapper {
-    top: 70%;
-    left: 50%;
-}
+@media(max-width:350px) {
+    html {
+        font-size: 30%;
+    }
 
-.email p {
-    width: max-content;
-
-} */
-
-footer {
-    height: 20vh;
-}
-
-footer p {
-    margin: 1rem;
-    text-align: center;
+    footer p {
+        font-size: 4rem;
+        padding: 1rem;
+    }
 }
