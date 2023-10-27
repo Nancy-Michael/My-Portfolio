@@ -814,8 +814,8 @@ footer a {
     }
 
     .navbar-link {
-        font-size: 3rem;
-        margin: 2rem;
+        font-size: 2rem;
+        margin: 0rem;
     }
 
     .section-1-btn-project {
@@ -839,9 +839,9 @@ footer a {
         font-size: 3.5rem;
     }
 
-    .progress-bars-wrapper {
+    /* .progress-bars-wrapper {
         width: 90%;
-    }
+    } */
 
     .progress-bar {
         height: 5rem;
